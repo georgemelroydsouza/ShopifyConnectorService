@@ -1,0 +1,34 @@
+{
+    "shopifyConnection": {
+        "shopName": "xxxxxx",    
+        "apiKey": "zzzzzzzzzzzz",
+        "password": "yyyyyyyyyyyyyyyyyyy",
+        "apiVersion": "2021-01"
+    },
+    
+    "shopifyOrders": {
+        "params": {
+            "orderLimit": 200,
+            "orderStatus": "open",
+            "orderFromHours": 12
+        },
+        "ignoreTag": "TEST",
+        "recurringfulfillmentPost": {
+            "location_id": "xxxxxxxxxxxx",
+            "tracking_number": "",
+            "tracking_company": "Royal Mail",
+            "tracking_url": "",
+            "updated_at": "",
+            "notify_customer": false
+        }
+    },
+    
+    "orderWiseInfo": {
+        "skipSKU": "SKIP_ORDERWISE",
+        "purchaseNotes": "Purchase from website.",
+        "purchaseDiscountReason": "",
+        "leaseNotes": "Lease from website.",
+        "leaseDiscountReason": "Lease Product"
+    }
+    
+}

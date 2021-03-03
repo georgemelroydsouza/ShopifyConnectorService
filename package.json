@@ -1,0 +1,39 @@
+{
+  "name": "shopify_connector_george",
+  "version": "1.0.0",
+  "description": "API service",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "https",
+    "url": "https://github.com/georgemelroydsouza/ShopifyConnectorService.git"
+  },
+  "keywords": [
+    "shopfiy",
+    "webshop",
+    "service"
+  ],
+  "author": "George M D'Souza",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.3",
+    "csv-parser": "^3.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.9.2",
+    "fs": "0.0.1-security",
+    "js2xmlparser": "^4.0.1",
+    "lodash": "^4.17.20",
+    "node-schedule": "^2.0.0",
+    "nodemailer": "^6.4.18",
+    "shopify-api-node": "^3.6.5",
+    "util": "^0.12.3"
+  },
+  "devDependencies": {
+    "form-data": "^4.0.0",
+    "got": "^11.8.1",
+    "nodemon": "^2.0.7"
+  }
+}
